@@ -17,6 +17,12 @@ public class home extends AppCompatActivity {
         scheduleTime=(Button) findViewById(R.id.scheduleTime);
         prviousData=(Button) findViewById(R.id.previousData);
         onOrOff=(Button) findViewById(R.id.onOrOff);
+        onOrOff.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onOrOffActivity();
+            }
+        });
         scheduleTime.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -29,5 +35,17 @@ public class home extends AppCompatActivity {
                 previousData();
             }
         });
+    }
+    public void onOrOffActivity(){
+        Intent intent = new Intent(this, onOrOffActivity.class);
+        startActivity(intent);
+    }
+    public void scheduleTimeActivity(){
+        Intent intent = new Intent(this, scheduleTimer.class);
+        startActivity(intent);
+    }
+    public void previousData(){
+        Intent intent = new Intent(this, previousData.class);
+        startActivity(intent);
     }
 }
