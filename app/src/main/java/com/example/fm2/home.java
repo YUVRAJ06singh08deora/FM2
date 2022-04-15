@@ -6,17 +6,18 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.os.Bundle;
+import android.widget.ImageButton;
 
 
 public class home extends AppCompatActivity {
-    Button scheduleTime,prviousData,onOrOff;
+    ImageButton scheduleTime,prviousData,onOrOff;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
-        scheduleTime=(Button) findViewById(R.id.scheduleTime);
-        prviousData=(Button) findViewById(R.id.previousData);
-        onOrOff=(Button) findViewById(R.id.onOrOff);
+        scheduleTime=(ImageButton) findViewById(R.id.scheduleTime);
+        prviousData=(ImageButton) findViewById(R.id.previousData);
+        onOrOff=(ImageButton) findViewById(R.id.onOrOff);
         onOrOff.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

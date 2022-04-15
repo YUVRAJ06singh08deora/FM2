@@ -4,24 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".onOrOffActivity">
+    tools:context=".onactivity">
 
     <ImageButton
-        android:id="@+id/onOff"
+        android:id="@+id/imageButton2"
         android:layout_width="355dp"
-        android:layout_height="610dp"
+        android:layout_height="592dp"
+        android:layout_marginBottom="36dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.867"
-        app:srcCompat="@drawable/onffscreen" />
+        app:srcCompat="@drawable/onscreen" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imageView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton2"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.388"
         app:srcCompat="@drawable/hometop" />
 </androidx.constraintlayout.widget.ConstraintLayout>
