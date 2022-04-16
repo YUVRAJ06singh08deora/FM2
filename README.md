@@ -1,4 +1,7 @@
 # FM2
+![image](https://user-images.githubusercontent.com/76275812/163675636-bbd2831d-41bf-46da-987c-3644223cade1.png)
+![image](https://user-images.githubusercontent.com/76275812/163675736-6562ee26-4c26-4c23-aa1e-b860b816f677.png)
+
 ## 📄 Abstract
 The issues that Indian farmers experience inspired the notion for this project.
 We've noted that the crop fields are usually positioned far distant from the farmer's home. To go to their crop fields, farmers must travel long distances.
