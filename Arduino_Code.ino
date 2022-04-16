@@ -1,5 +1,5 @@
 
-
+#include <Servo.h>
 #include <ESP8266WiFi.h>
 #include <FirebaseESP8266.h>
                           
@@ -8,18 +8,22 @@
 
 #define WIFI_SSID "Yuvraj singh deora"                                               //your WiFi SSID for which yout NodeMCU connects
 #define WIFI_PASSWORD "6376179619001"                                      //Password of your wifi network 
- 
+Servo servo;
 
 // Declare the Firebase Data object in the global scope
 FirebaseData firebaseData;
 
 // Declare global variable to store value
-int val=0;
+int sval=0;// Servo Status Value
+int tval=0; // Timer value
 
 
 void setup() {
 
   Serial.begin(115200);                                                      // Select the same baud rate if you want to see the datas on Serial Monitor
+  servo.attach(2); //D4
+
+  servo.write(0);
 
   Serial.println("Serial communication started\n\n");  
            
@@ -51,14 +55,30 @@ void loop() {
 
 // Firebase Error Handling And Reading Data From Specified Path ************************************************
 
-if (Firebase.getInt(firebaseData, "/btnStatus/btnValue")) {                           // On successful Read operation, function returns 1  
+if (Firebase.getInt(firebaseData, "/btnStatus/servoValue")) {                           // On successful Read operation, function returns 1  
 
     if (firebaseData.dataType() == "int") {                            // print read data if it is integer
 
-      val = firebaseData.intData();
-      Serial.println(val);
-      Serial.println("\n Instruction Recieved from the firebase."); 
-      delay(10000);
+      sval = firebaseData.intData();
+      servo.write(sval);
+      Serial.println("\nThe Value recieved for the servo"); 
+      Serial.println(sval);
+     
+      
+    }
+
+  } else {
+    Serial.println(firebaseData.errorReason());
+  }
+  if (Firebase.getInt(firebaseData, "/ScheduleTimer/ScheduleTime")) {                           // On successful Read operation, function returns 1  
+
+    if (firebaseData.dataType() == "int") {                            // print read data if it is integer
+
+      tval = firebaseData.intData();
+      Serial.println("\n Timer Value Recieved from the firebase and timer has been set for"); 
+      Serial.println(tval);
+      Serial.println("Hours"); 
+      
       
     }
 
