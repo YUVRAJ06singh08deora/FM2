@@ -7,6 +7,17 @@
     tools:context=".MainActivity">
 
     <ImageView
+        android:id="@+id/bgimg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.343"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bgapp" />
+
+    <ImageView
         android:id="@+id/imageView"
         android:layout_width="375dp"
         android:layout_height="401dp"
@@ -24,7 +35,7 @@
         android:layout_height="56dp"
         android:layout_marginTop="8dp"
         android:background="@drawable/btn_bg"
-        android:backgroundTint="#D32F2F"
+        android:backgroundTint="#1B1414"
         android:fontFamily="sans-serif-black"
         android:paddingBottom="10dp"
         android:text="Login"
@@ -43,9 +54,10 @@
         android:layout_width="250dp"
         android:layout_height="56dp"
         android:layout_marginTop="40dp"
-        android:fontFamily="sans-serif-black"
         android:background="@drawable/btn_bg"
+        android:fontFamily="sans-serif-black"
         android:text="Sign Up"
+        android:textColor="#F3F3F3"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

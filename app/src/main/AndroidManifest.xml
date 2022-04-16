@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.fm2" >
+    package="com.example.fm2">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -11,15 +11,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.FM2" >
-        <activity android:name=".LoginActivity" >
-        </activity>
-        <activity android:name=".onactivity" />
+        android:theme="@style/Theme.FM2">
+        <activity android:name=".LoginActivity"></activity>
         <activity android:name=".previousData" />
         <activity android:name=".scheduleTimer" />
         <activity android:name=".onOrOffActivity" />
         <activity android:name=".home" />
-        <activity android:name=".MainActivity" >
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
