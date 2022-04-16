@@ -37,3 +37,13 @@ When it comes to turning off the motor, the technique is the same. This time, th
 
 ### Figma Design:
 https://www.figma.com/file/coCQxMdngKq833Iec9rh3Q/FM2-App?node-id=0%3A1
+
+### App Images:
+![WhatsApp Image 2022-04-16 at 5 16 42 PM (1)](https://user-images.githubusercontent.com/82866163/163673740-61341d53-7570-499b-adf0-545f3334e25c.jpeg)
+![WhatsApp Image 2022-04-16 at 5 16 42 PM](https://user-images.githubusercontent.com/82866163/163673750-eb8148b0-24e6-4b36-9ab5-f942eaabd272.jpeg)
+![WhatsApp Image 2022-04-16 at 5 16 36 PM](https://user-images.githubusercontent.com/82866163/163673759-6bc2b8fa-7a7d-4a10-a072-0c338ffca3ba.jpeg)
+![WhatsApp Image 2022-04-16 at 5 16 35 PM (2)](https://user-images.githubusercontent.com/82866163/163673768-bb773987-2d60-4100-8c32-f46614c46e89.jpeg)
+![WhatsApp Image 2022-04-16 at 5 16 35 PM (1)](https://user-images.githubusercontent.com/82866163/163673775-80a622c3-8dfc-4137-a43f-77fd7e0fdc72.jpeg)
+![WhatsApp Image 2022-04-16 at 5 16 35 PM](https://user-images.githubusercontent.com/82866163/163673788-53f5ed64-930f-4d65-963e-36c10bdf88cb.jpeg)
+![WhatsApp Image 2022-04-16 at 5 16 34 PM](https://user-images.githubusercontent.com/82866163/163673794-83ad3837-e285-4e03-ad5f-258b2c7c04ce.jpeg)
+
