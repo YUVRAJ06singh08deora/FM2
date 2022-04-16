@@ -24,16 +24,16 @@ When it comes to turning off the motor, the technique is the same. This time, th
 
 ## 💫Tech Stack
 
-### Softwares Required 
+### Softwares Required:
 - Arduino Ide
 - Android Studio
 - Figma
 - Google Firebase
 
-### Hardware Required 
+### Hardware Required:
 - Arduino Uno
 - Gsm Module
 - Servo Motors X 2
 
-### Figma Design
+### Figma Design:
 https://www.figma.com/file/coCQxMdngKq833Iec9rh3Q/FM2-App?node-id=0%3A1
