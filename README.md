@@ -49,6 +49,12 @@ https://www.figma.com/file/coCQxMdngKq833Iec9rh3Q/FM2-App?node-id=0%3A1
 - step 5:The Timer Activity lets you set the date and the timer for how much time you want your motor to run
 - step 6:The Crop Health data activity shows you the history of the irrigation data.
 
+### Youtube Video
+https://youtu.be/WpxqWPJJbRU
+
+### NOTE
+The device shown in the video is the inside part of the starter of the motor pump such that there are two white buttons from which we can turn on and off the the motor pump.
+
 ### App Images:
 
 ![image](https://user-images.githubusercontent.com/82866163/163673874-991f555b-c85e-4522-a0d6-eae81f17b14a.png) ![image](https://user-images.githubusercontent.com/82866163/163673923-e26d85ce-328e-4343-9de7-7364810e6fef.png) ![image](https://user-images.githubusercontent.com/82866163/163673940-37649b2f-4013-4ddb-88db-46df5c32745e.png) ![image](https://user-images.githubusercontent.com/82866163/163673951-44cfd8de-70f6-4161-9f74-c3c2ab15be4c.png)
