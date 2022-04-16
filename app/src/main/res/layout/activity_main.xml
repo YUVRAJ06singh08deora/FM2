@@ -7,9 +7,9 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/bgimg"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+
+        android:layout_width="419dp"
+        android:layout_height="740dp"
         android:layout_marginTop="4dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.343"
@@ -17,7 +17,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/bgapp" />
 
-    <ImageView
+        <ImageView
         android:id="@+id/imageView"
         android:layout_width="375dp"
         android:layout_height="401dp"
@@ -28,14 +28,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo" />
 
+
     <Button
         android:id="@+id/login"
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="250dp"
         android:layout_height="56dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="412dp"
         android:background="@drawable/btn_bg"
-        android:backgroundTint="#1B1414"
+        android:backgroundTint="#BF1212"
         android:fontFamily="sans-serif-black"
         android:paddingBottom="10dp"
         android:text="Login"
@@ -43,10 +44,11 @@
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.496"
 
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:rippleColor="#320505" />
 
     <Button

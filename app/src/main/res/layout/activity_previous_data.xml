@@ -4,52 +4,64 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#6A737B"
+
     tools:context=".previousData">
+
     <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="107dp"
-        android:layout_height="98dp"
+
+
+        android:layout_width="499dp"
+        android:layout_height="815dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.655"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo" />
+        app:srcCompat="@drawable/cdatadasffs" />
+    <!--    <ImageView-->
+<!--        android:id="@+id/imageView6"-->
+<!--        android:layout_width="107dp"-->
+<!--        android:layout_height="98dp"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:srcCompat="@drawable/logo" />-->
 
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="232dp"
-        android:layout_height="94dp"
-        android:fontFamily="sans-serif-black"
-        android:gravity="center|clip_vertical|left"
-        android:text="FM2.0"
-        android:textColor="#000000"
-        android:textSize="36sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.125"
-        app:layout_constraintStart_toEndOf="@+id/imageView5"
-        tools:layout_editor_absoluteY="2dp" />
+<!--    <TextView-->
+<!--        android:id="@+id/textView6"-->
+<!--        android:layout_width="232dp"-->
+<!--        android:layout_height="94dp"-->
+<!--        android:fontFamily="sans-serif-black"-->
+<!--        android:gravity="center|clip_vertical|left"-->
+<!--        android:text="FM2.0"-->
+<!--        android:textColor="#000000"-->
+<!--        android:textSize="36sp"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.125"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/imageView5"-->
+<!--        tools:layout_editor_absoluteY="2dp" />-->
 
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="104dp"
-        android:layout_height="74dp"
-        android:layout_marginTop="40dp"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6"
-        app:srcCompat="@drawable/cdata"
-        tools:layout_editor_absoluteX="42dp" />
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView8"-->
+<!--        android:layout_width="104dp"-->
+<!--        android:layout_height="74dp"-->
+<!--        android:layout_marginTop="40dp"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/imageView6"-->
+<!--        app:srcCompat="@drawable/cdata"-->
+<!--        tools:layout_editor_absoluteX="42dp" />-->
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
-        android:fontFamily="sans-serif-black"
-        android:text="Previous Records"
-        android:textColor="#FFFFFF"
-        android:textSize="30sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.36"
-        app:layout_constraintStart_toEndOf="@+id/imageView8"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+<!--    <TextView-->
+<!--        android:id="@+id/textView3"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="60dp"-->
+<!--        android:fontFamily="sans-serif-black"-->
+<!--        android:text="Previous Records"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:textSize="30sp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.36"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/imageView8"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textView6" />-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
