@@ -4,49 +4,62 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#DAF2FF"
+    android:background="#6A737B"
     tools:context=".home">
-
-    <ImageButton
-        android:id="@+id/onOrOff"
-        android:layout_width="315dp"
-        android:layout_height="118dp"
-        android:layout_marginTop="196dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.583"
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="107dp"
+        android:layout_height="98dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/onofflogo" />
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="232dp"
+        android:layout_height="94dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center|clip_vertical|left"
+        android:text="FM2.0"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        tools:layout_editor_absoluteY="2dp" />
 
     <ImageButton
         android:id="@+id/scheduleTime"
-        android:layout_width="308dp"
-        android:layout_height="118dp"
-        android:layout_marginTop="32dp"
+        android:layout_width="275dp"
+        android:layout_height="107dp"
+        android:layout_marginTop="28dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.525"
+        app:layout_constraintHorizontal_bias="0.411"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/onOrOff"
         app:srcCompat="@drawable/scheduletimer" />
 
     <ImageButton
         android:id="@+id/previousData"
-        android:layout_width="309dp"
-        android:layout_height="114dp"
-        android:layout_marginTop="32dp"
+        android:layout_width="277dp"
+        android:layout_height="107dp"
+        android:layout_marginTop="36dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.544"
+        app:layout_constraintHorizontal_bias="0.417"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/scheduleTime"
         app:srcCompat="@drawable/logdata" />
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ImageButton
+        android:id="@+id/onOrOff"
+        android:layout_width="251dp"
+        android:layout_height="103dp"
+        android:layout_marginTop="100dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintHorizontal_bias="0.35"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/hometop" />
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:srcCompat="@drawable/onscreenphoto" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
