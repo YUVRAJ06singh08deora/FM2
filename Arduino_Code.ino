@@ -78,7 +78,13 @@ if (Firebase.getInt(firebaseData, "/btnStatus/servoValue")) {                   
       Serial.println("\n Timer Value Recieved from the firebase and timer has been set for"); 
       Serial.println(tval);
       Serial.println("Hours"); 
-      
+//       while(tval>0)
+//       {
+//        if(amp>150){
+//         servo.write(180)
+//        }
+        
+//       }
       
     }
 
