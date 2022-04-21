@@ -83,6 +83,7 @@ if (Firebase.getInt(firebaseData, "/btnStatus/servoValue")) {                   
 //        if(amp>150){
 //         servo.write(180)
 //        }
+      //tval++
         
 //       }
       
