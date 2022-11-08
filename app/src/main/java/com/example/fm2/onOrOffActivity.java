@@ -26,7 +26,7 @@ public class onOrOffActivity extends AppCompatActivity {
 
     // creating a variable for our Database
     // Reference for Firebase.
-    DatabaseReference refrence1,refrence2;
+    DatabaseReference refrence1,refrence2,ref1servo,ref2servo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,13 +37,16 @@ public class onOrOffActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if (isChecked) {
                     System.out.println("Button is turned on");
-                       int servostatus=180;
+                       int servoOnStatus=110;
+                       int servoOffStatus=90;
                     Date date = new Date();
                     SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yy");
                     String dat1 = formatter.format(date);
-                        rootnode=FirebaseDatabase.getInstance();
-                        refrence1=rootnode.getReference("btnStatus/btnValue");
-                        refrence1.setValue(servostatus);
+                    rootnode=FirebaseDatabase.getInstance();
+                    ref1servo=rootnode.getReference("servo2value");
+                    ref1servo.setValue(servoOnStatus);
+                    ref2servo=rootnode.getReference("servo1value");
+                    ref2servo.setValue(servoOffStatus);
                     refrence2=rootnode.getReference("btnStatus/date");
                     refrence2.setValue(dat1);
 
@@ -52,10 +55,13 @@ public class onOrOffActivity extends AppCompatActivity {
                     Date date = new Date();
                     SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yy");
                     String dat1 = formatter.format(date);
-                    int servostatus=0;
+                    int servoOnstatus=130;
+                    int servoOffstatus=0;
                     rootnode=FirebaseDatabase.getInstance();
-                    refrence1=rootnode.getReference("btnStatus/btnValue");
-                    refrence1.setValue(servostatus);
+                    ref1servo=rootnode.getReference("servo2value");
+                    ref1servo.setValue(servoOnstatus);
+                    ref2servo=rootnode.getReference("servo1value");
+                    ref2servo.setValue(servoOffstatus);
                     refrence2=rootnode.getReference("btnStatus/date");
                     refrence2.setValue(dat1);
 

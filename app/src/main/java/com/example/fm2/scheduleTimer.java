@@ -30,11 +30,12 @@ public class scheduleTimer extends AppCompatActivity {
                 String date1= date .getText().toString();
                 EditText timer= (EditText)findViewById(R.id.timer);
                 String timer1= timer.getText().toString();
+                int timer2=Integer.parseInt(timer1);
                 rootnode=FirebaseDatabase.getInstance();
                 refrence1=rootnode.getReference("ScheduleTimer/Date");
                 refrence1.setValue(date1);
                 refrence2=rootnode.getReference("ScheduleTimer/ScheduleTime");
-                refrence2.setValue(timer1);
+                refrence2.setValue(timer2);
             }
         });
 
